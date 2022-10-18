@@ -1,31 +1,21 @@
-.banner {
-    background-image: url("./Images/pattern.jpeg");
-    background-size: cover;
-}
-
 * {
     font-family: Helvetica;
 }
 
-.banner p {
-    font-family: Helvetica;
+.banner {
     font-size: 100px;
     font-weight: bold;
     color: khaki;
     text-align: center;
+    background-image: url('../images/pattern.webp');
+    filter: drop-shadow(1px 1px 1px black);
 }
 
-.headers {
-    font-family: Helvetica;
+.product {
     font-size: 32px;
     font-weight: bold;
     color: white;
-}
-
-.headers h3 {
-    font-family: Helvetica;
-    font-size: auto;
-    color: black;
+    filter: drop-shadow(1px 1px 1px black);
 }
 
 #brushes {
@@ -38,4 +28,14 @@
 
 #paint {
     background-color: skyblue;
+}
+
+.productname {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price {
+    font-weight: bold;
+    color: blue;
 }
