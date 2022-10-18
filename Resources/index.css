@@ -7,7 +7,7 @@
     font-weight: bold;
     color: khaki;
     text-align: center;
-    background-image: url('../images/pattern.webp');
+    background-image: url('/Resources/Images/pattern.jpeg');
     filter: drop-shadow(1px 1px 1px black);
 }
 
@@ -16,6 +16,10 @@
     font-weight: bold;
     color: white;
     filter: drop-shadow(1px 1px 1px black);
+}
+
+.product-name {
+    font-weight: bold;
 }
 
 #brushes {
@@ -38,4 +42,9 @@
 .price {
     font-weight: bold;
     color: blue;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 20px;
 }
